@@ -1,0 +1,30 @@
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+#my-canvas {
+    border: solid 4px #eaeaea;
+    border-radius: 4px;
+}
+
+#canvas-brush-color {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+#canvas-brush-color::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+#canvas-brush-color::-webkit-color-swatch {
+    border: none;
+    border-radius: 100%;
+}
+
+#canvas-add-image {
+    display: none;
+}
